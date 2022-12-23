@@ -2,6 +2,6 @@
 From tomcat:8-jre8
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
-
+MAINTAINER "murtuza2696@gmail.com" 
+#COPY /home/jenkins/agent/workspace/devops-cicd/webapp/target/webapp.war /usr/local/tomcat/webapps
+COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps

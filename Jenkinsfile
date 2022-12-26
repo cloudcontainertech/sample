@@ -16,7 +16,7 @@ pipeline {
                     ///sh 'docker build -t docker9447/helloworld:v1 . '
 		    sh 'pwd'
 		    sh 'ls'
-                    sh 'ls /home/jenkins/agent/workspace/devops-cicd/webapp/target/webapp.war'
+                    ///sh 'ls /home/jenkins/agent/workspace/devops-cicd/webapp/target/webapp.war'
                     sh 'docker build -t docker9447/helloworld:v1 . '
                 }
             }
